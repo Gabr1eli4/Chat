@@ -3,8 +3,7 @@ import PropTypes from "prop-types";
 function Message({ user, message }) {
   return (
     <div className="message">
-      <div className="user">{user.name}</div>
-      <div className="message">{message}</div>
+      <i>{user.name}</i>: {message}
     </div>
   );
 }
